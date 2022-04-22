@@ -41,11 +41,11 @@ phases:
   build:
     commands:
      # run build script
-     - npm run-script build
-      # - echo Building...
-      # - npm build
-      # - echo Testing...
-      # - npm test
+    #  - npm run-script build
+      - echo Building...
+      - npm run build
+      - echo Testing...
+      - npm run test
      
 artifacts:
   # include all files required to run application
