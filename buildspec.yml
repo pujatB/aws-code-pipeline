@@ -40,8 +40,12 @@ phases:
        
   build:
     commands:
-        # run build script
-        - npm run-script build
+     # run build script
+     # - npm run-script build
+      - echo Testing...
+      - yarn test
+      - echo Building...
+      - yarn build
      
 artifacts:
   # include all files required to run application
